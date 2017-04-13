@@ -28,12 +28,21 @@ class LoginViewController: UIViewController {
         loginButton.addTarget(self, action: #selector(LoginViewController.buttonClicked), for: .touchUpInside)
         
         view.addSubview(loginButton)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         
+        let isLogin = UserDefaults.standard.bool(forKey: "ISLOGIN")
+        if isLogin {
+            present(MainViewController(), animated: true, completion: nil)
+        }
     }
     
     func buttonClicked() {
-        
+        UserDefaults.standard.set(true, forKey: "ISLOGIN")
+        present(MainViewController(), animated: true, completion: nil)
     }
 
 

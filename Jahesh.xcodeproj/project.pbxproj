@@ -15,6 +15,9 @@
 		3F031B421E9756AE00B83531 /* JaheshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B411E9756AE00B83531 /* JaheshTests.swift */; };
 		3F031B4D1E9756AE00B83531 /* JaheshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B4C1E9756AE00B83531 /* JaheshUITests.swift */; };
 		3F031B5B1E976B8000B83531 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B5A1E976B8000B83531 /* LoginViewController.swift */; };
+		3FACF8ED1E9F3BBC003FA4BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACF8EC1E9F3BBC003FA4BB /* ProfileViewController.swift */; };
+		3FACF8EF1E9F3DDA003FA4BB /* DummyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACF8EE1E9F3DDA003FA4BB /* DummyNavigationController.swift */; };
+		3FACF8F21E9F4AD1003FA4BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FACF8F11E9F4AD1003FA4BB /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3F031B4C1E9756AE00B83531 /* JaheshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaheshUITests.swift; sourceTree = "<group>"; };
 		3F031B4E1E9756AE00B83531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F031B5A1E976B8000B83531 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FACF8EC1E9F3BBC003FA4BB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FACF8EE1E9F3DDA003FA4BB /* DummyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyNavigationController.swift; sourceTree = "<group>"; };
+		3FACF8F11E9F4AD1003FA4BB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				3F031B351E9756AE00B83531 /* LaunchScreen.storyboard */,
 				3F031B381E9756AE00B83531 /* Info.plist */,
 				3F031B5A1E976B8000B83531 /* LoginViewController.swift */,
+				3FACF8EC1E9F3BBC003FA4BB /* ProfileViewController.swift */,
+				3FACF8EE1E9F3DDA003FA4BB /* DummyNavigationController.swift */,
+				3FACF8F11E9F4AD1003FA4BB /* MainViewController.swift */,
 			);
 			path = Jahesh;
 			sourceTree = "<group>";
@@ -265,6 +274,9 @@
 				3F031B5B1E976B8000B83531 /* LoginViewController.swift in Sources */,
 				3F031B2F1E9756AE00B83531 /* ViewController.swift in Sources */,
 				3F031B2D1E9756AE00B83531 /* AppDelegate.swift in Sources */,
+				3FACF8F21E9F4AD1003FA4BB /* MainViewController.swift in Sources */,
+				3FACF8EF1E9F3DDA003FA4BB /* DummyNavigationController.swift in Sources */,
+				3FACF8ED1E9F3BBC003FA4BB /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +521,7 @@
 				3F031B531E9756AE00B83531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F031B541E9756AE00B83531 /* Build configuration list for PBXNativeTarget "JaheshTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				3F031B561E9756AE00B83531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F031B571E9756AE00B83531 /* Build configuration list for PBXNativeTarget "JaheshUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				3F031B591E9756AE00B83531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
