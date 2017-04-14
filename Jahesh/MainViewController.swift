@@ -16,10 +16,10 @@ class MainViewController: UITabBarController {
         let profileViewController = ProfileViewController()
         profileViewController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "profileImage"), tag: 1)
         
-        let profileViewController2 = LoginViewController()
-        profileViewController2.tabBarItem = UITabBarItem(title: "Profile2", image: UIImage(named: "profileImage"), tag: 1)
+        let postsViewController = PostsViewController()
+        postsViewController.tabBarItem = UITabBarItem(title: "Posts", image: UIImage(named: "profileImage"), tag: 2)
 
-        viewControllers = [profileViewController, profileViewController2]
+        viewControllers = [profileViewController, postsViewController]
     }
     
     
