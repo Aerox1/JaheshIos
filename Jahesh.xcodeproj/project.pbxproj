@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B90D4BAE898F7EC0E34121 /* Pods_Jahesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709BBE1BEAE60759DFF4F3FC /* Pods_Jahesh.framework */; };
 		3F031B2D1E9756AE00B83531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B2C1E9756AE00B83531 /* AppDelegate.swift */; };
 		3F031B2F1E9756AE00B83531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B2E1E9756AE00B83531 /* ViewController.swift */; };
 		3F031B321E9756AE00B83531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F031B301E9756AE00B83531 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		3F031B421E9756AE00B83531 /* JaheshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B411E9756AE00B83531 /* JaheshTests.swift */; };
 		3F031B4D1E9756AE00B83531 /* JaheshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B4C1E9756AE00B83531 /* JaheshUITests.swift */; };
 		3F031B5B1E976B8000B83531 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B5A1E976B8000B83531 /* LoginViewController.swift */; };
+		3F036AEB1EA9DECC007FA631 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F036AEA1EA9DECC007FA631 /* MovieData.swift */; };
+		3F21190B1EA9D1CD0038B8C2 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21190A1EA9D1CD0038B8C2 /* AlamofireViewController.swift */; };
+		3F21190D1EA9D3170038B8C2 /* AlamofireCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21190C1EA9D3170038B8C2 /* AlamofireCell.swift */; };
 		3F2860961EA87CDA0077CBCB /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2860951EA87CDA0077CBCB /* NetworkViewController.swift */; };
 		3F2860981EA887610077CBCB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2860971EA887610077CBCB /* Movie.swift */; };
 		3F28609A1EA8918C0077CBCB /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2860991EA8918C0077CBCB /* MovieCell.swift */; };
@@ -60,6 +64,9 @@
 		3F031B4C1E9756AE00B83531 /* JaheshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaheshUITests.swift; sourceTree = "<group>"; };
 		3F031B4E1E9756AE00B83531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F031B5A1E976B8000B83531 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F036AEA1EA9DECC007FA631 /* MovieData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		3F21190A1EA9D1CD0038B8C2 /* AlamofireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		3F21190C1EA9D3170038B8C2 /* AlamofireCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireCell.swift; sourceTree = "<group>"; };
 		3F2860951EA87CDA0077CBCB /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		3F2860971EA887610077CBCB /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3F2860991EA8918C0077CBCB /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
@@ -71,6 +78,9 @@
 		3FACF8EE1E9F3DDA003FA4BB /* DummyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyNavigationController.swift; sourceTree = "<group>"; };
 		3FACF8F11E9F4AD1003FA4BB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3FDBE4001EA092D100DA93A0 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4DD1081A3B01454F3D4F997C /* Pods-Jahesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jahesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jahesh/Pods-Jahesh.release.xcconfig"; sourceTree = "<group>"; };
+		5834AB50215703C0758796CA /* Pods-Jahesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jahesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jahesh/Pods-Jahesh.debug.xcconfig"; sourceTree = "<group>"; };
+		709BBE1BEAE60759DFF4F3FC /* Pods_Jahesh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jahesh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B90D4BAE898F7EC0E34121 /* Pods_Jahesh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +116,8 @@
 				3F031B401E9756AE00B83531 /* JaheshTests */,
 				3F031B4B1E9756AE00B83531 /* JaheshUITests */,
 				3F031B2A1E9756AE00B83531 /* Products */,
+				480800AC597F9E9F30B53C0F /* Pods */,
+				7E4302531A4BDE1194BEBA60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +152,9 @@
 				3F2860951EA87CDA0077CBCB /* NetworkViewController.swift */,
 				3F2860971EA887610077CBCB /* Movie.swift */,
 				3F2860991EA8918C0077CBCB /* MovieCell.swift */,
+				3F21190A1EA9D1CD0038B8C2 /* AlamofireViewController.swift */,
+				3F21190C1EA9D3170038B8C2 /* AlamofireCell.swift */,
+				3F036AEA1EA9DECC007FA631 /* MovieData.swift */,
 			);
 			path = Jahesh;
 			sourceTree = "<group>";
@@ -161,6 +177,23 @@
 			path = JaheshUITests;
 			sourceTree = "<group>";
 		};
+		480800AC597F9E9F30B53C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5834AB50215703C0758796CA /* Pods-Jahesh.debug.xcconfig */,
+				4DD1081A3B01454F3D4F997C /* Pods-Jahesh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E4302531A4BDE1194BEBA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709BBE1BEAE60759DFF4F3FC /* Pods_Jahesh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F031B511E9756AE00B83531 /* Build configuration list for PBXNativeTarget "Jahesh" */;
 			buildPhases = (
+				B492B41952D60AC0C6BD6418 /* [CP] Check Pods Manifest.lock */,
 				3F031B251E9756AE00B83531 /* Sources */,
 				3F031B261E9756AE00B83531 /* Frameworks */,
 				3F031B271E9756AE00B83531 /* Resources */,
+				87AA5A58678FF56B622E33E0 /* [CP] Embed Pods Frameworks */,
+				805465DD0A31F162A5C72D9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +326,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		805465DD0A31F162A5C72D9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jahesh/Pods-Jahesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AA5A58678FF56B622E33E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jahesh/Pods-Jahesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B492B41952D60AC0C6BD6418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F031B251E9756AE00B83531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -303,11 +387,14 @@
 				3F031B2D1E9756AE00B83531 /* AppDelegate.swift in Sources */,
 				3FACF8F21E9F4AD1003FA4BB /* MainViewController.swift in Sources */,
 				3FACF8EF1E9F3DDA003FA4BB /* DummyNavigationController.swift in Sources */,
+				3F036AEB1EA9DECC007FA631 /* MovieData.swift in Sources */,
 				3F2860961EA87CDA0077CBCB /* NetworkViewController.swift in Sources */,
 				3F2860981EA887610077CBCB /* Movie.swift in Sources */,
+				3F21190B1EA9D1CD0038B8C2 /* AlamofireViewController.swift in Sources */,
 				3FACF8ED1E9F3BBC003FA4BB /* ProfileViewController.swift in Sources */,
 				3F8E43A11E9FD5B6000C668B /* PostsCollectionViewController.swift in Sources */,
 				3F8E439F1E9FD3D6000C668B /* PostCell.swift in Sources */,
+				3F21190D1EA9D3170038B8C2 /* AlamofireCell.swift in Sources */,
 				3FDBE4011EA092D100DA93A0 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +545,7 @@
 		};
 		3F031B521E9756AE00B83531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5834AB50215703C0758796CA /* Pods-Jahesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jahesh/Info.plist;
@@ -470,6 +558,7 @@
 		};
 		3F031B531E9756AE00B83531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD1081A3B01454F3D4F997C /* Pods-Jahesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jahesh/Info.plist;
