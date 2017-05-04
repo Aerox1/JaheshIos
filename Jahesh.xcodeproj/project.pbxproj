@@ -10,7 +10,6 @@
 		28B90D4BAE898F7EC0E34121 /* Pods_Jahesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709BBE1BEAE60759DFF4F3FC /* Pods_Jahesh.framework */; };
 		3F031B2D1E9756AE00B83531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B2C1E9756AE00B83531 /* AppDelegate.swift */; };
 		3F031B2F1E9756AE00B83531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B2E1E9756AE00B83531 /* ViewController.swift */; };
-		3F031B321E9756AE00B83531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F031B301E9756AE00B83531 /* Main.storyboard */; };
 		3F031B341E9756AE00B83531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F031B331E9756AE00B83531 /* Assets.xcassets */; };
 		3F031B371E9756AE00B83531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F031B351E9756AE00B83531 /* LaunchScreen.storyboard */; };
 		3F031B421E9756AE00B83531 /* JaheshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F031B411E9756AE00B83531 /* JaheshTests.swift */; };
@@ -23,6 +22,7 @@
 		3F2860981EA887610077CBCB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2860971EA887610077CBCB /* Movie.swift */; };
 		3F28609A1EA8918C0077CBCB /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2860991EA8918C0077CBCB /* MovieCell.swift */; };
 		3F4250D81EA0A7CB002BDE2F /* PostCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4250D71EA0A7CB002BDE2F /* PostCollectionCell.swift */; };
+		3F7B40C81EBB0E9300D5BD46 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B40C71EBB0E9300D5BD46 /* MapViewController.swift */; };
 		3F8E439D1E9FD2FC000C668B /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E439C1E9FD2FC000C668B /* PostsViewController.swift */; };
 		3F8E439F1E9FD3D6000C668B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E439E1E9FD3D6000C668B /* PostCell.swift */; };
 		3F8E43A11E9FD5B6000C668B /* PostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E43A01E9FD5B6000C668B /* PostsCollectionViewController.swift */; };
@@ -53,7 +53,6 @@
 		3F031B291E9756AE00B83531 /* Jahesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jahesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F031B2C1E9756AE00B83531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F031B2E1E9756AE00B83531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F031B311E9756AE00B83531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F031B331E9756AE00B83531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F031B361E9756AE00B83531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F031B381E9756AE00B83531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		3F2860971EA887610077CBCB /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3F2860991EA8918C0077CBCB /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		3F4250D71EA0A7CB002BDE2F /* PostCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollectionCell.swift; sourceTree = "<group>"; };
+		3F7B40C71EBB0E9300D5BD46 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3F8E439C1E9FD2FC000C668B /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		3F8E439E1E9FD3D6000C668B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		3F8E43A01E9FD5B6000C668B /* PostsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsCollectionViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +136,6 @@
 			children = (
 				3F031B2C1E9756AE00B83531 /* AppDelegate.swift */,
 				3F031B2E1E9756AE00B83531 /* ViewController.swift */,
-				3F031B301E9756AE00B83531 /* Main.storyboard */,
 				3F031B331E9756AE00B83531 /* Assets.xcassets */,
 				3F031B351E9756AE00B83531 /* LaunchScreen.storyboard */,
 				3F031B381E9756AE00B83531 /* Info.plist */,
@@ -155,6 +154,7 @@
 				3F21190A1EA9D1CD0038B8C2 /* AlamofireViewController.swift */,
 				3F21190C1EA9D3170038B8C2 /* AlamofireCell.swift */,
 				3F036AEA1EA9DECC007FA631 /* MovieData.swift */,
+				3F7B40C71EBB0E9300D5BD46 /* MapViewController.swift */,
 			);
 			path = Jahesh;
 			sourceTree = "<group>";
@@ -306,7 +306,6 @@
 			files = (
 				3F031B371E9756AE00B83531 /* LaunchScreen.storyboard in Resources */,
 				3F031B341E9756AE00B83531 /* Assets.xcassets in Resources */,
-				3F031B321E9756AE00B83531 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +391,7 @@
 				3F2860981EA887610077CBCB /* Movie.swift in Sources */,
 				3F21190B1EA9D1CD0038B8C2 /* AlamofireViewController.swift in Sources */,
 				3FACF8ED1E9F3BBC003FA4BB /* ProfileViewController.swift in Sources */,
+				3F7B40C81EBB0E9300D5BD46 /* MapViewController.swift in Sources */,
 				3F8E43A11E9FD5B6000C668B /* PostsCollectionViewController.swift in Sources */,
 				3F8E439F1E9FD3D6000C668B /* PostCell.swift in Sources */,
 				3F21190D1EA9D3170038B8C2 /* AlamofireCell.swift in Sources */,
@@ -431,14 +431,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F031B301E9756AE00B83531 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F031B311E9756AE00B83531 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F031B351E9756AE00B83531 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

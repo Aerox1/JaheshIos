@@ -10,5 +10,7 @@ target 'Jahesh' do
 
 pod 'Alamofire', '~> 4.4'
 pod 'ObjectMapper', '~> 2.2'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
 
 end

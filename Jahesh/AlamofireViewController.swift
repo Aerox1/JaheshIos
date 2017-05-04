@@ -72,6 +72,7 @@ class AlamofireViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "AlamofireCell", for: indexPath) as! AlamofireCell
+        cell.delegate = self
         cell.configure(movie: movies[indexPath.row])
         return cell
     }
@@ -81,5 +82,25 @@ class AlamofireViewController: UIViewController, UITableViewDataSource, UITableV
         // Return the number of sections.
         return 1
     }
+    
+}
+extension AlamofireViewController: AlamofireCellDelegate {
+    
+    func likeButtonClicked(id: Int) {
+//        for index in 0...movies.count-1 {
+//            if movies[index].id == id {
+//                movies.remove(at: index)
+//                break
+//            }
+//        }
+        
+        movies = movies.filter( {$0.id != id} )
+        tableView.reloadData()
+    }
+}
+
+protocol AlamofireCellDelegate {
+    
+    func likeButtonClicked(id: Int)
     
 }
